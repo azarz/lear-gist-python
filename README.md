@@ -3,6 +3,8 @@ Python library to extract [A. Torralba's GIST descriptor](http://people.csail.mi
 
 This is just a wrapper for [Lear's GIST implementation](http://lear.inrialpes.fr/software) written in C. It supports both Python 2 and Python 3 and was tested under Python 2.7.10 and Python 3.4.3 on Linux.
 
+azarz: I have made some tweaks to make it work on Windows (Works with my Anaconda3 installation with Python 3.6)
+
 ## How to build and install
 
 ### Pre-requirements
