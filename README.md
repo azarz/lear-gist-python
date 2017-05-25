@@ -15,35 +15,17 @@ $ pip install numpy
 
 ##### FFTW
 [FFTW](http://www.fftw.org/) is required to build lear_gist.
-Please download the source, then build and install like following. (Install guide is [here](http://www.fftw.org/fftw3_doc/Installation-on-Unix.html). Please refer for defail.)
-Make sure `--enable-single` and `--enable-shared` options are set to `./configure`.
+
+fftw3f librarie and DLL
+
+### Build and install (WINDOWS)
+
+Install using pip.exe
 ```shell
-$ ./configure --enable-single --enable-shared
-$ make
-$ make install
+$ pip install <download path>\lear-gist-python
 ```
 
-Because:
-- lear-gist requires *float version* FFTW to work with (`--enable-single`).
-- lear-gist-python requires FFTW to be compiled with `-fPIC` option (`--enable-shared`).
-
-### Build and install
-Download lear_gist
-```shell
-$ sh download-lear.sh
-```
-
-Build and install
-```shell
-$ python setup.py build_ext
-$ python setup.py install
-```
-
-If `fftw3f` is installed in non-standard path (for example, `$HOME/local`),
-use `-I` and `-L` options:
-```shell
-$ python setup.py build_ext -I $HOME/local/include -L $HOME/local/lib
-```
+You may need to copy some DLLs in the site-packages directory
 
 ## Usage
 ```python
