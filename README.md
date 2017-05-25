@@ -25,7 +25,7 @@ Install using pip.exe
 $ pip install <download path>\lear-gist-python
 ```
 
-You may need to copy some DLLs in the site-packages directory
+### You may need to copy the DLLs of the dll folder in the site-packages directory
 
 ## Usage
 ```python
