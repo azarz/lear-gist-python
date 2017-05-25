@@ -16,7 +16,7 @@ $ pip install numpy
 ##### FFTW
 [FFTW](http://www.fftw.org/) is required to build lear_gist.
 
-fftw3f librarie and DLL
+fftw3f library and DLL
 
 ### Build and install (WINDOWS)
 
