@@ -18,7 +18,8 @@ $ pip install numpy
 ##### FFTW
 [FFTW](http://www.fftw.org/) is required to build lear_gist.
 
-fftw3f library and DLL
+fftw3f library in the compiler's "include" directory (e.g. C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include)
+and DLL in the Python's sites-packages directory (e.g. C:\Anaconda3\Lib\site-packages)
 
 ### Build and install (WINDOWS)
 
@@ -33,8 +34,9 @@ $ pip install <download path>\lear-gist-python
 ```python
 import gist
 import numpy as np
+from scipy import misc
 
-img = ... # numpy array containing an image
+img = misc.imread("image.png") # numpy array containing an image
 descriptor = gist.extract(img)
 ```
 
