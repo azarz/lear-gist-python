@@ -23,9 +23,11 @@ and DLL in the Python's sites-packages directory (e.g. C:\Anaconda3\Lib\site-pac
 
 ### Build and install (WINDOWS)
 
+Download this repository as a zip file and extract it.
+
 Install using pip.exe
 ```shell
-$ pip install <download path>\lear-gist-python
+$ pip install <extracted path>\lear-gist-python
 ```
 
 ### You may need to copy the DLLs of the dll folder in the site-packages directory
